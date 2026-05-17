@@ -1,5 +1,5 @@
 Frequency-Time Dual-Stream Mamba with Graph Topology-guided Mixture of Experts (FTDSM-GTMoE)
-Source code and data for "Frequency-Time Dual-Stream Mamba with Graph Topology-Guided Mixture of Experts for Early Alzheimer's Disease Diagnosis Using rs-fMRI Time Series"
+Source code and data for "Graph Topology-Guided State-Space and Mixture-of-Experts for Dynamic Brain Connectome Classification and Spatiotemporal Pathological Localization in Alzheimer’s Disease"
 
 Introduction
 FTDSM-GTMoE: A novel framework combining Frequency-Time Dual-Stream Mamba and Graph Topology-guided Mixture of Experts for precise early AD diagnosis, mining fine-grained dynamic features to automatically localize high-risk brain regions and temporal patches.

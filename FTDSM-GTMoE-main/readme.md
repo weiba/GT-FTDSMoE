@@ -1,12 +1,13 @@
-# Frequency-Time Dual-Stream Mamba with Graph Topology-guided Mixture of Experts (FTDSM-GTMoE)
+# 
+Graph Topology-Guided State-Space and Mixture-of-Experts for Dynamic Brain Connectome Classification and Spatiotemporal Pathological Localization in Alzheimer's Disease(GT-FTDSMoE)
 
-Source code and data for "Frequency-Time Dual-Stream Mamba with Graph Topology-Guided Mixture of Experts for Early Alzheimer's Disease Diagnosis Using rs-fMRI Time Series"
+Source code and data for "Graph Topology-Guided State-Space and Mixture-of-Experts for Dynamic Brain Connectome Classification and Spatiotemporal Pathological Localization in Alzheimer's Disease"
 
 
 
 ## Introduction
 
-**FTDSM-GTMoE:** A novel framework combining Frequency-Time Dual-Stream Mamba and Graph Topology-guided Mixture of Experts for precise early AD diagnosis, mining fine-grained dynamic features to automatically localize high-risk brain regions and temporal patches.![](D:\desktop\论文3\框架.png)
+**GT-FTDSMoE:** A novel framework combining Frequency-Time Dual-Stream Mamba and Graph Topology-guided Mixture of Experts for precise early AD diagnosis, mining fine-grained dynamic features to automatically localize high-risk brain regions and temporal patches.![](D:\desktop\论文3\框架.png)
 
 ## Requirements
 
@@ -24,7 +25,7 @@ In addition, CUDA 12.1 have been used on NVIDIA GeForce RTX 3090.
 
 ### Main Code Files
 
-- **model.py**: Contains the core implementation of the FTDSM-GTMoE model. 
+- **model.py**: Contains the core implementation of the GT-FTDSMoE model. 
 - **train.py**: This script is responsible for training, validating, and testing the model. The model is trained on different fMRI classification tasks and evaluated based on the validation and test data. The best model based on validation performance is saved during the process.
 - **utils.py**: This file contains utility functions used throughout the project. These include functions for data loading, calculating evaluation metrics (e.g., accuracy, sensitivity, specificity, AUC), computing adjacency matrices, normalizing adjacency matrices, and other preprocessing tasks for the fMRI data.
 - **idp-test.py**: This script is used for independent testing on two tasks. It leverages AD, EMCI, and LMCI data from the ADNI3, ADNIDOD, and ADNI-GO datasets as training sets for five-fold cross-validation. Corresponding data from ADNI2 is used as the independent test set .
